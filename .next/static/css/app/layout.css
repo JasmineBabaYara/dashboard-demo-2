@@ -573,6 +573,25 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.flex {
+  display: flex;
+}
+.h-full {
+  height: 100%;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
