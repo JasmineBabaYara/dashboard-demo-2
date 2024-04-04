@@ -7,13 +7,25 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <nav className="border-b border-gray flex justify-between items-center h-20 bg-white pl-10 pr-10">
+    <nav className="border-b border-gray flex justify-between items-center h-28 bg-white pl-10 pr-10 pt-4 pb-4">
       <div className="flex items-center">
         <p>CashPie</p>
       </div>
-      <div>
+      <div className="bg-secondary rounded-full p-2 pl-4 pr-4 text-sm font-light flex items-center gap-x-8 h-12">
         <Link href='/'>
-          
+          Dashboard
+        </Link>
+        <Link href='/'>
+          Cards
+        </Link>
+        <Link href='/'>
+          Payment
+        </Link>
+        <Link href='/'>
+          Transaction
+        </Link>
+        <Link href='/'>
+          Contracts
         </Link>
       </div>
       <div className="flex items-center gap-x-4">
