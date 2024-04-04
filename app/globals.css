@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+nav a.active{
+  background-color: #2244F6;
+  color:#fff;
+}
