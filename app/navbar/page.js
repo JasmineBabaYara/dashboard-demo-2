@@ -12,7 +12,9 @@ export default function page() {
         <p>CashPie</p>
       </div>
       <div>
-
+        <Link href='/'>
+          
+        </Link>
       </div>
       <div className="flex items-center gap-x-4">
         <div className="bg-zinc-200 rounded-full w-8 h-8 flex items-center justify-center">
