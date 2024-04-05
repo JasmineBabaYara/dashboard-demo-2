@@ -15,7 +15,7 @@ export default function page() {
   // console.log(pathname)
 
   return (
-    <nav className="border-b border-gray flex justify-between items-center h-28 bg-white pl-10 pr-10 pt-4 pb-4">
+    <nav className="border-b border-zinc-200 flex justify-between items-center h-28 bg-white ">
       <div className="flex items-center text-black">
         <Image src={logo} alt="logo" className="w-10 h-10" />
         <p>CashPie</p>
