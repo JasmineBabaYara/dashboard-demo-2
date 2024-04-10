@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
+    "antd": "^5.16.1",
     "chart.js": "^4.4.2",
     "faker": "^6.6.6",
     "next": "13.5.6",
