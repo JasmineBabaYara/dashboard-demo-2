@@ -45,6 +45,12 @@ export default function page() {
             </div>
           </div>
         </div>
+        <div className="bg-secondary rounded-xl col-span-1 p-4 h-96">
+          <div className="flex justify-between items-center">
+            <p className="font-medium text-black text-base">My cards</p>
+            <CiCreditCard1 size={30} />
+          </div>
+        </div>
       </div>
       <div className="grid grid-cols-3 mt-4">
         <div className="bg-secondary h-40 rounded-xl col-span-2"></div>
